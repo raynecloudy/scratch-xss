@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "outDir": "./src/scripts/dist",
+    "rootDir": "./src/scripts",
     "types": ["node"],
     "module": "nodenext",
     "moduleResolution": "nodenext",

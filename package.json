@@ -2,7 +2,8 @@
   "name": "scratch-xss",
   "type": "module",
   "scripts": {
-    "build": "npx tsc && node ./src/build.js"
+    "setup": "npx tsc",
+    "build": "node ./src/scripts/dist/build.js"
   },
   "dependencies": {
     "zip-a-folder": "^6.1.1"
