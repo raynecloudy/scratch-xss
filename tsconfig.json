@@ -1,1 +1,9 @@
-{}
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
+    "skipLibCheck": true
+  }
+}
