@@ -1,5 +1,5 @@
 {
-  "name": "scratchmalware",
+  "name": "scratch-xss",
   "type": "module",
   "scripts": {
     "build": "npx tsc && ./src/build.js"
