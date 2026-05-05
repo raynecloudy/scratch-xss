@@ -1,0 +1,7 @@
+{
+  "name": "scratchmalware",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc && ./src/build.js"
+  }
+}
