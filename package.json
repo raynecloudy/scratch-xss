@@ -3,5 +3,8 @@
   "type": "module",
   "scripts": {
     "build": "npx tsc && ./src/build.js"
+  },
+  "dependencies": {
+    "zip-a-folder": "^6.1.1"
   }
 }
