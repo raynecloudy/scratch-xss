@@ -1,4 +1,4 @@
-import { cp, mkdir, readFile, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { cwd, exit } from "node:process";
 import { join } from "node:path";
 import { zip } from "zip-a-folder";
@@ -28,3 +28,7 @@ const XSS = await readFile(XSSPath, "utf-8");
 await writeFile(costumePath, costume.replace("<code>", XSS));
 
 await zip(tmpPath, join(distPath, "project.sb3"));
+
+await rm(tmpPath, {
+  recursive: true
+});
