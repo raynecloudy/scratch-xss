@@ -2,7 +2,7 @@ All 3.x.x versions of Scratch Desktop currently have a vulnerability that allows
 
 I do not support the use of this project for malicious purposes. I created it for the purpose of experimentation.
 
-## Setup
+## Directions
 Run the following command.
 
 ```sh
